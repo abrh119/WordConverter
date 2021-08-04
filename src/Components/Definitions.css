@@ -1,0 +1,48 @@
+.meanings{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 55vh;
+    border:6px solid white   ;
+    border-radius: 3px;
+    padding: 10px 20px;
+    overflow-x:hidden;
+  
+} 
+
+.meanings::-webkit-scrollbar {
+    width: 4px;
+}
+
+.meanings::-webkit-scrollbar-thumb {
+  background-color: white;
+  opacity: 0.5;
+  
+}
+.subtitles{
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.singlemean{
+    background-color: #edf4ff ;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin:10px 0;
+
+}
+
+@media(max-width:900px){
+    .meanings{
+        height: 55vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+audio{
+    background-color: white;
+    border-radius: 10px;
+}
